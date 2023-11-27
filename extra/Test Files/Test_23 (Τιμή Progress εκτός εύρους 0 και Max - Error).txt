@@ -1,0 +1,11 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	
+	<ProgressBar
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:progress="250"
+		android:max="100"/>
+	
+</RelativeLayout>

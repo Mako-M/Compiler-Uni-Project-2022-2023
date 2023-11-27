@@ -1,0 +1,19 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:button_quantity="1"
+		android:checkedButton="ID_1">
+		
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="Random_Text"
+			android:id="ID_1"/>
+		
+	</RadioGroup>
+	
+</RelativeLayout>

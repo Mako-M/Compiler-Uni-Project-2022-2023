@@ -1,0 +1,30 @@
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		
+		
+	</RelativeLayout>
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Random Text">
+			
+			
+		
+	</LinearLayout>
+	
+	
+	</TextView>
+	
+	
+</LinearLayout>

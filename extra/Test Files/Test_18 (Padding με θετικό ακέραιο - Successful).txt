@@ -1,0 +1,11 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Random Text"
+		android:padding="100"/>
+	
+</RelativeLayout>

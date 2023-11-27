@@ -1,0 +1,67 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		
+		<RadioGroup
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:checkedButton="ID_3"
+			android:button_quantity="3">
+			
+			<RadioButton
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="RandomText"
+				android:id="ID_1"/>
+				
+			<RadioButton
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="RandomText"
+				android:id="ID_2"/>
+				
+			<RadioButton
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="RandomText"
+				android:id="ID_3"/>
+			
+		</RadioGroup>
+		
+	</RelativeLayout>
+	
+	<!--This is a comment! -->
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+		
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="RandomText"/>
+			
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="RandomText"/>
+		
+	</LinearLayout>
+	
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="kjsvuishv"/>
+	
+	<!-- This is a 
+	
+	multi-line
+	
+	comment!
+	-->
+	
+</RelativeLayout>

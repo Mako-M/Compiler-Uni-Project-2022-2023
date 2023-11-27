@@ -1,0 +1,80 @@
+<root> ::= <LinearLayout> | <RelativeLayout>
+
+<single_tag> ::= 
+	<LinearLayout> | <RelativeLayout> | <TextView> | <ImageView> | 
+	<Button> | <RadioButton> | <RadioGroup> | <ProgressBar>
+
+<content> ::= <content> <single_tag> | <single_tag> | ε
+	
+<LinearLayout> ::= "<LinearLayout " <linear_layout_attributes> ">" <single_tag> <content> "</LinearLayout>"
+
+<RelativeLayout> ::= "<RelativeLayout " <relative_layout_attributes> ">" <content> "</RelativeLayout>"
+
+<TextView> ::= "<TextView " <text_view_attributes> "/>"
+
+<ImageView> ::= "<ImageView " <image_view_attributes> "/>"
+
+<Button> ::= "<Button " <button_attributes> "/>"
+
+<RadioGroup> ::= "<RadioGroup " <radio_group_attributes> ">" <radio_content> "</RadioGroup>"
+
+<radio_content> ::= <radio_content> <RadioButton> | <RadioButton>
+
+<RadioButton> ::= "<RadioButton " <radio_button_attributes> "/>"
+
+<ProgressBar> ::= "<ProgressBar " <progress_bar_attributes> "/>"
+
+------------------------------------------------------------------------------------------------------------
+
+<linear_layout_attributes> ::= <layout_width> <layout_height> <id> <orientation>
+
+<relative_layout_attributes> ::= <layout_width> <layout_height> <id>
+
+<text_view_attributes> ::= <layout_width> <layout_height> <id> <text> <text_color>
+
+<image_view_attributes> ::= <layout_width> <layout_height> <id> <src> <padding>
+
+<button_attributes> ::= <layout_width> <layout_height> <id> <text> <padding>
+
+<radio_group_attributes> ::= <layout_width> <layout_height> <id> <checked_button> <button_quantity>
+
+<radio_button_attributes> ::= <layout_width> <layout_height> <id> <text>
+
+<progress_bar_attributes> ::= <layout_width> <layout_height> <id> <max> <progress>
+
+------------------------------------------------------------------------------------------------------------
+
+<layout_width> ::= "android:=\"" <integer> "\"" | "android:=\"match_parent\"" | "android:=\"wrap_content\""
+	
+<layout_height> ::= "android:=\"" <integer> "\""
+	
+<id> ::= "android:id=\"" <string> "\"" | ε
+	
+<text> ::= "android:text=\"" <string> "\""
+	
+<text_color> ::= "android:textColor=\"" <string> "\"" | ε
+	
+<src> ::= "android:src=\"" <string> "\""
+	
+<padding> ::= "android:padding=\"" <integer> "\"" | ε
+	
+<checked_button> ::= "android:checkedButton=\"" <string> "\"" | ε
+	
+<max> ::= "android:max=\"" <integer> "\"" |ε
+	
+<progress> ::= "android:progress=\"" <integer> "\"" |ε
+	
+<orientation> ::= "android:orientation=\"" <string> "\"" |ε
+	
+<button_quantity> ::= "android:button_quantity=\" <integer> \""
+	
+------------------------------------------------------------------------------------------------------------
+
+<integer> ::= <integer> <digit> | <digit>
+	
+<digit> ::= [0-9]
+
+<string> ::= <string> <character> | <character>
+	
+<character> ::= [0-9A-Za-z_]
+	

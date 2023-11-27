@@ -1,0 +1,15 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+	
+	<!-- This is a Comment! -->
+	
+	<!-- And
+	
+	this is a 
+	
+	Multi-line Comment!
+	
+	-->
+
+</RelativeLayout>

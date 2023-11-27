@@ -1,0 +1,19 @@
+<LinearLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+	
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:button_quantity="0">
+		
+		
+	</RadioGroup>
+	
+	<RadioButton
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="B01"
+		android:text="Random Text"/>
+
+</LinearLayout>

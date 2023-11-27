@@ -1,0 +1,17 @@
+<RelativeLayout
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+	
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="random_path"
+		android:id="ID1"
+		android:padding="100"/>
+		
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="random_path"/>
+
+</RelativeLayout>
